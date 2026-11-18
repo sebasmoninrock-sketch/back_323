@@ -1,4 +1,5 @@
 import mysql from "mysql2/promise"; // importamos la libreria
+import "dotenv/config"
 
 // creamos una constante POOL
 const pool = mysql.createPool({
