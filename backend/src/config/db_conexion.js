@@ -1,7 +1,8 @@
 import mysql from "mysql2/promise"; // importamos la libreria
-//creamos una constante POOL
+
+// creamos una constante POOL
 const pool = mysql.createPool({
-  host: process.env.APP_HOST ||"localhost",
+  host: process.env.MYSQL_ADDON_HOST || "localhost",
   port: Number(process.env.MYSQL_ADDON_PORT) || 3306,
   user: process.env.MYSQL_ADDON_USER || "root",
   password: process.env.MYSQL_ADDON_PASSWORD || "",
@@ -13,6 +14,7 @@ const pool = mysql.createPool({
   dateStrings: true,
   decimalNumbers: true,
 });
+
 export default pool;
 
 // //administra la conexion base de datos
