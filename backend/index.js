@@ -5,7 +5,6 @@ import rutausuario from "./src/modules/usuario/usuario.routes.js";
 // creamos una instancia de la libreria express en la constante app
 const app = express(); //metodo constructor de la libreria
 const PORT = process.env.PORT || 4100; //puerto donde desplegaremos el
-server;
 //middlewares
 app.use(express.urlencoded({ extended: true })); // x-www-form-urlencodeddesde express
 app.use(express.json()); // Para que el servidor entienda JSON en el body
