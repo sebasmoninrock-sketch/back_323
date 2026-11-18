@@ -1,0 +1,26 @@
+Database Credentials
+Get credentials for manual connections to this database.
+
+Host
+bka38badkwkrnfmh2rvr-mysql.services.clever-cloud.com
+Database Name
+bka38badkwkrnfmh2rvr
+User
+uas5j3d5wqy2y9g4
+Password
+o4PcvVkhzTsvZEtVGkY2
+🔓
+Port
+3306
+Connection URI
+mysql://uas5j3d5wqy2y9g4:o4PcvVkhzTsvZEtVGkY2@bka38badkwkrnfmh2rvr-mysql.services.clever-cloud.com:3306/bka38badkwkrnfmh2rvr
+🔓
+MySQL CLI
+mysql -h bka38badkwkrnfmh2rvr-mysql.services.clever-cloud.com -P 3306 -u uas5j3d5wqy2y9g4 -p bka38badkwkrnfmh2rvr
+
+MYSQL_ADDON_HOST=bka38badkwkrnfmh2rvr-mysql.services.clever-cloud.com
+MYSQL_ADDON_DB=bka38badkwkrnfmh2rvr
+MYSQL_ADDON_USER=uas5j3d5wqy2y9g4
+MYSQL_ADDON_PORT=3306
+MYSQL_ADDON_PASSWORD=o4PcvVkhzTsvZEtVGkY2
+MYSQL_ADDON_URI=mysql://uas5j3d5wqy2y9g4:o4PcvVkhzTsvZEtVGkY2@bka38badkwkrnfmh2rvr-mysql.services.clever-cloud.com:3306/bka38badkwkrnfmh2rvr
